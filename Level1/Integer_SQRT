@@ -1,0 +1,11 @@
+#include <stdlib.h>
+#include <math.h>
+
+long long solution(long long (n)) {
+    long long number = 0;
+    if (sqrt(n) == (int)sqrt(n))
+        number = (sqrt(n) + 1) * (sqrt(n) + 1);
+    else
+        number = (-1);
+    return number;
+}
